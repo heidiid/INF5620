@@ -3,16 +3,6 @@ import matplotlib.pylab as plt
 import numpy
  
 plt.ion()
- 
-#while(t < 5.0):                 # we'll limit ourselves to 5 seconds.
-#                                # set this to while(True) if you want to loop forever
-#    t = time.time() - starttime # find out how long the script has been running
-#    y = -2*sin(x)*sin(t)        # just a function for a standing wave
-#                                # replace this with any function you want to animate
-#                                # for instance, y = sin(x-t)
-# 
-#    line.set_ydata(y)           # update the plot data
-#    draw()                      # redraw the canvas
 
 N = 1000 # number of subintervals
 p_degree = 1 # polyn. degree of approx.
